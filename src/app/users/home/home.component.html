@@ -1,0 +1,18 @@
+<header class="user-list__header">
+  <h1>Users List</h1>
+</header>
+<main class="user-list__main">
+  <!-- <input class="user-list__main__filterInput" type="text" placeholder="Search by User ID" (keyup)="handleFilter($event)"> -->
+  <table>
+    <tr>
+      <th style="width: 7%;">User ID</th>
+      <th style="width: 30%;">Title</th>
+      <th style="width: 63%;">Body</th>
+    </tr>
+    <tr *ngFor="let user of users">
+      <td><strong>{{user.id}}</strong></td>
+      <td>{{user.name}}</td>
+      <td>{{user.username}}</td>
+    </tr>
+  </table>
+</main>

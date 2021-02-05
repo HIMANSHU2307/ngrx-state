@@ -1,0 +1,34 @@
+.post-list__header {
+  padding: 20px 20px;
+  background-color: transparent;
+}
+
+.post-list__header > h1 {
+  font-size: 1.5rem;
+}
+
+.post-list__main {
+  padding: 0px 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.post-list__main__filterInput {
+  padding: 5px;
+  font-size: 1rem;
+  border: 1px solid #dddddd;
+}
